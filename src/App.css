@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+
+#cardsContainer{
+  display: flex;
+  flex-wrap:wrap;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90vh;
+  height: 90vh;
+  padding: 0px;
+}
+
+.cardHolder{
+  width: 24vh;
+  height: 24vh;
+  border: 1vh black solid;
+  border-radius: 3vh;
+  margin: 2vh;
+  font-family: 'Unica One', cursive;
+  font-size: 4vh;
+  color: white;
+  text-shadow: 1px 1px #2c2c2c;
+}
+
+#scoreboard{
+  font-family: 'Unica One', cursive;
+  font-size: 4vh;
+  color: rgb(57, 17, 201);
+}
